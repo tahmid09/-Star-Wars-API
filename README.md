@@ -13,14 +13,10 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 
-## Test
-
-```bash
-# unit tests
+## Test App
 $ npm run test
 
-
-## FRONTEND APP
+************FRONTEND APP *************
 
 $ cd frontend
 $ npm install
