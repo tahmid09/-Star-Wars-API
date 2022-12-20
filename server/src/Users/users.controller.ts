@@ -32,11 +32,14 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
  userData = {}
 
+
+/// GET USERS LIST
   @Get("list/:page")
   getuserList(@Param('page') page) {
     return this.usersService.getUserList(page);
   }
 
+  //// SEARCH USER BY NAME
   @Get("get-user/:name")
   getUserSearchDetials(@Param('name') name) {
     let user = this.usersService.getUserSearch(name);
@@ -44,7 +47,7 @@ export class UsersController {
   }
 
 
-
+////// GET USER DETAILS DATA
 @Get("user/:id" )
 async getUserDetials(@Param('id') id) {
  let user: Users = await this.usersService.getUserDetials(id);
