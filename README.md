@@ -2,6 +2,7 @@
 # development
 
 $ cd server
+
 $ npm install
 
 $ nest start --watch
