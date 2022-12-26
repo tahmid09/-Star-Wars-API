@@ -6,6 +6,7 @@ $ cd server
 $ npm install
 
 $ nest start --watch
+
 $ npm run start
 
 # watch mode
@@ -20,6 +21,7 @@ $ npm run test
 ## FRONTEND APP
 
 $ cd frontend
+
 $ npm install
 
 $ npm start
